@@ -34,13 +34,14 @@ The API will be accessible at http://127.0.0.1:8000.
 API Endpoints
 
           Books
+
 Get All Books
 Endpoint: /books
 Method: GET
       Response:
 json
 Copy code
-{
+      {
     "books": [
         {
             "id": "string",
@@ -52,6 +53,8 @@ Copy code
         ...
     ]
 }
+       
+        
         Get Book by Index
 Endpoint: /books/{id}
 Method: GET
@@ -65,6 +68,8 @@ Copy code
     "published_date": "string",
     "isbn": "string"
 }
+     
+      
       Add a New Book
 Endpoint: /books
 Method: POST
@@ -84,6 +89,8 @@ Copy code
 {
     "book_id": "string"
 }
+      
+      
       Update a Book
 Endpoint: /books/{id}
 Method: PUT
@@ -107,6 +114,8 @@ Copy code
     "published_date": "string",
     "isbn": "string"
 }
+       
+        
         Delete a Book
 Endpoint: /books/{id}
 Method: DELETE
@@ -141,6 +150,9 @@ Copy code
 {
     "message": "User registered successfully"
 }
+    
+        
+        
         Login
 Endpoint: /token
 Method: POST

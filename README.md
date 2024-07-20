@@ -5,7 +5,7 @@ Created a RESTful API using FastAPI that allows users to manage a collection of 
 Prerequisites
 Python 3.7+
 Pip (Python package installer)
-    Installation
+                      Installation
 Clone the repository:
 sh
 Copy code
